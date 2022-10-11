@@ -1,0 +1,11 @@
+.progress {
+  @apply flex-1 border border-gray-300;
+
+  &::-webkit-progress-bar {
+    @apply bg-gradient-to-b from-white via-gray-100 to-gray-200;
+  }
+
+  &::-webkit-progress-value {
+    @apply bg-gradient-to-b from-blue-500 via-blue-300 to-blue-100;
+  }
+}
